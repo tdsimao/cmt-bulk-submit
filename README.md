@@ -8,4 +8,14 @@
 	- abstract
 	- files: paths to the files to be submited
 	- trackID: id of the track
+1. install the necessary dependencies 
+
+```bash
+uv sync
+```
+
+1. run the script
+```bash
+uv run cmt-submit
+```
 
