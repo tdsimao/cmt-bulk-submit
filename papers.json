@@ -1,0 +1,19 @@
+[
+{
+	"title": "<TITLE>",
+	"abstract": "<ABSTRACT>",
+	"files": [
+		"path/file01.pdf"
+	],
+	"trackID": 1
+},
+{
+	"title": "<TITLE> VS <TITLE>",
+	"abstract": "<ABSTRACT1>\n\n<ABSTRACT1>",
+	"files": [
+		"path/file02.pdf",
+		"path/file03.pdf"
+	],
+	"trackID": 3
+}
+]

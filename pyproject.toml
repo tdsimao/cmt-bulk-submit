@@ -1,0 +1,19 @@
+[project]
+name = "cmt-bulk-submit"
+version = "0.1.0"
+description = "Automate bulk paper submissions to Microsoft CMT. cmt-bulk-submit reads titles, abstracts, and manuscript files from a local dataset and submits them through the CMT web interface using Playwright."
+readme = "README.md"
+authors = [
+    { name = "tdsimao", email = "tdsimao@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "playwright>=1.62.0",
+]
+
+[project.scripts]
+cmt-submit = "cmt_bulk_submit.main:cmt_submit"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
